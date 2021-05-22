@@ -5,11 +5,7 @@ canvas {
 
 html, body {
   margin: 25px;
-  /*background-color: #ce3635;*/
-  /* Original bg color: #A293FF */
-  /* background-color: #f8883e; */
   background-color: #F6911D;
-  /* background-image: linear-gradient(80deg, #d4fc79 0%, #96e6a1 100%); */
   font-family: Helvetica, sans-serif, sans-serif;
   font-size: 14px;
   overflow: hidden; 
@@ -23,15 +19,11 @@ h1 {
   top: 0px;
   font-family: 'Lobster', cursive;
 font-family: 'Reggae One', cursive;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   font-style: normal;
   font-weight: bold;
   font-size: 120px;
   line-height: 141px;
-  /* identical to box height */
-
   letter-spacing: -0.05em;
-  
   color: #FFFFFF;
 }
 
@@ -41,9 +33,8 @@ h2{
   height: 76px;
   left: 99px;
   top: 135px;
-  font-family: 'Lobster', cursive;
-font-family: 'Reggae One', cursive;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -64,7 +55,7 @@ h3{
 p {
   font-size: 30px;
   font-weight: normal;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Volkhov', serif;
   text-align: justify;
   margin-top: 0px;
   margin-bottom: 100px;
@@ -78,10 +69,7 @@ p {
   border-radius: 10px;
 
   color: #FFFFFF;
-  /* background: rgb(73, 145, 174); */
-  /* background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%); */
   background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
-  /* background: rgba(87, 73, 174, 0.37); */
 }
 
 a {
@@ -108,7 +96,6 @@ indexbutton{
   font-weight: 500;
   font-size: 50px;
   line-height: 65px;
-  /* identical to box height */
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
@@ -119,7 +106,6 @@ indexbutton{
 
   color: #FFFFFF;
 
-  /* background: rgba(87, 73, 174, 0.37); */
   background: rgb(73, 145, 174);
 
   
@@ -149,7 +135,6 @@ indexbutton:hover{
 .child {
   position: absolute;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -90px);
 }
 
@@ -172,11 +157,4 @@ indexbutton:hover{
   animation: fadein 1.5s ease;
   
 }
-/*
-@keyframes fadein {
-  0%   {bottom: -220px;}
-  25%  {bottom: -100px;}
-  50%  {bottom: 0px;}
-  75%  {bottom: -100px;}
-  100% {bottom: -220px;}
-}*/
+
