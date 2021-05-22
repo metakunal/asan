@@ -1,3 +1,2 @@
-Your personal Yoga Trainer
-TRY IT OUT YOURSELF 
-<a href="https://metakunal.github.io/asanversion-1/">Asan.ai</a>
+<h1>TRY IT OUT YOURSELF </h1><br><br>
+<a href="https://metakunal.github.io/asan/">Asan.ai</a>
